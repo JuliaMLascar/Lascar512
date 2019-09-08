@@ -2,22 +2,6 @@
 # vim: set fileencoding=utf-8 :
 from random import randint
 
-print """
-This is a simulation of a simplified pokemon battle. 
-
-You choose your first pokemon (starter), then encounter a Zubat.
-You can either kill it or try to capture it.
-To kill it, just attack it repeatedly. 
-(This process is easier if you picture the pokemon as an annoying white male.) Note that some attacks are weaker than others. 
-To capture it, first attack it once to make it weaker, then look for a pokeball in your bag, and throw it.
-You may also decide to be a coward and run away, but that has a chance of failure. (there's probably another white man joke to be made here)
-
-If the Zubat attacks you too many times, you die. 
-Zubat are amongst the weakest of pokemons. Weaker than a white man's ego. 
-Letting a zubat kill you would bring shame on your pokeclan for all of eternity.
-Seriously. Don't die.
-Ok have fun! 
-"""
 end = 0
 HP_zubat= 10
 HP_me = 20   
