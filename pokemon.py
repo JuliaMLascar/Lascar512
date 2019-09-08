@@ -135,7 +135,7 @@ if end == 0:
                 print( "Escaping failed.") 
                 print( "The Zubat uses tackle.")
                 HP_me=attacks(HP_me,5)
-                print( "Your health is " HP_me)
+                print( "Your health is ", HP_me)
             elif chance < 6:
                 print( "You've run away. You're definitely not a gryffindor, but then again, courage is overrated, right?")
                 escaping = 1
