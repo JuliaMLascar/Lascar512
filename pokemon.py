@@ -16,7 +16,7 @@ def attacks(hp,n):
 print( "First, let's choose your starter.")
 print( "1 — Bulbasaur, the grass type.\n2 — Squirtle, the water type.\n3 — Charmander, the fire type.")
 
-starter = raw_input("> ")
+starter = input("> ")
     
 if starter == "1": 
     starter_name = "Bulbasaur"
@@ -37,7 +37,7 @@ if end == 0:
     while HP_zubat > 0 and HP_me > 0 and capture==0 and escaping == 0:
         print( "What will you do?")
         print( "1 — Attack.\n2 — Switch Pokemon.\n3 — Look through your bag.\n4 — Run.")
-        choice = raw_input("> ")  
+        choice = input("> ")  
         
         if choice == "1":
             
@@ -45,7 +45,7 @@ if end == 0:
                 print( "Which attack to use?")
                 print( "1. Tackle \n2. Growl \n3. Vine Whip ")
                 
-                attack = raw_input("> ")
+                attack = input("> ")
             
                 if attack == "1":
                     print( "Bulbasaur uses tackle. It's effective.") 
@@ -67,7 +67,7 @@ if end == 0:
             elif starter =="2" :
                 print( "Which attack to use?")
                 print( "1. Tackle \n2. Tail Whip \n3. Water Gun ")
-                attack = raw_input("> ")
+                attack = input("> ")
             
                 if attack == "1":
                     print( "Squirtle uses tackle. It's effective.")
@@ -88,7 +88,7 @@ if end == 0:
             elif starter == "3":
                 print( "Which attack to use?")
                 print( "1. Scratch \n2. Growl \n3. Ember ") 
-                attack = raw_input("> ")
+                attack = input("> ")
             
                 if attack == "1":
                     print( "Charmender uses scratch. It's effective.") 
@@ -113,7 +113,7 @@ if end == 0:
             
         elif choice == "3":
             print( "You have an old kinder bueno and a pokeball.\n1. Eat the bueno.\n2. Throw the pokeball.")
-            choice_bag = raw_input("> ") 
+            choice_bag = input("> ") 
         
             if choice_bag == "1": 
                 print( "It's a bit stale, but worth it.")
